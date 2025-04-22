@@ -7,7 +7,35 @@
         "Action": "Start"
       },
       {
+        "Path": "IdentityServer\\MultiShop.IdentityServer\\MultiShop.IdentityServer.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "ApiGateway\\MultiShop.OcelotGateway\\MultiShop.OcelotGateway.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "Services\\Discount\\MultiShop.Discount\\MultiShop.Discount.csproj",
+        "Action": "Start"
+      },
+      {
         "Path": "Frontends\\MultiShop.WebUI\\MultiShop.WebUI.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "Services\\Order\\Infrastructure\\MultiShop.Order.Persistence\\MultiShop.Order.Persistence.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "Services\\Order\\Presentation\\MultiShop.Order.WebApi\\MultiShop.Order.WebApi.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "Services\\Cargo\\MultiShop.Cargo.WebApi\\MultiShop.Cargo.WebApi.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "Services\\Basket\\MultiShop.Basket\\MultiShop.Basket.csproj",
         "Action": "Start"
       },
       {
@@ -15,7 +43,11 @@
         "Action": "Start"
       },
       {
-        "Path": "IdentityServer\\MultiShop.IdentityServer\\MultiShop.IdentityServer.csproj",
+        "Path": "Services\\Payment\\MultiShop.Payment\\MultiShop.Payment.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "Services\\Images\\MultiShop.Images\\MultiShop.Images.csproj",
         "Action": "Start"
       }
     ]
