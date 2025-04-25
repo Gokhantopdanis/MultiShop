@@ -33,6 +33,7 @@ namespace MultiShop.WebUI.Controllers
                 ProductName = values.ProductName,
                 Price = values.ProductPrice,
                 Quantity = 1,
+                ProductImageUrl = values.ProductImageUrl,
             };
             await _basketService.AddBasketItem(items);
             return RedirectToAction("Index");
