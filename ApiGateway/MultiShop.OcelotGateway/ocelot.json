@@ -88,7 +88,7 @@
             "UpstreamScheme": "http",
             "AuthenticationOptions": {
                 "AuthenticationProviderKey": "OcelotAuthenticationScheme",
-                "AllowedScopes": [ "BasketFullPermisson" ]
+                "AllowedScopes": [ "BasketFullPermisson" ]            
             }
         },
         {
