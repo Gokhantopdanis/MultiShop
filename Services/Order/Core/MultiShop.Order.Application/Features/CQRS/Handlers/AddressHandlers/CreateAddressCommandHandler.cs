@@ -23,9 +23,17 @@ namespace MultiShop.Order.Application.Features.CQRS.Handlers.AddressHandlers
             await _repository.CreateAsync( new Address
             {
                 City = createAddressCommands.City,
-                Detail = createAddressCommands.Detail,
+                Detail1 = createAddressCommands.Detail1,
                 District = createAddressCommands.District,
                 UserId = createAddressCommands.UserId,
+                Country = createAddressCommands.Country,
+                Description = createAddressCommands.Description,
+                Detail2 = createAddressCommands.Detail2,
+                Email = createAddressCommands.Email,
+                Name = createAddressCommands.Name,
+                Phone = createAddressCommands.Phone,    
+                Surname = createAddressCommands.Surname,
+                ZipCode = createAddressCommands.ZipCode,
             });
         }
     }
